@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data (demos can be huge — don't commit)
+/data/
+*.dem
+*.dem.bz2
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Notebooks output
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
